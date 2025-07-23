@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-starter",
+  "name": "BlogModuleXM",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "0.1.0",
   "private": true,
   "config": {
-    "appName": "nextjs-starter",
+    "appName": "BlogModuleXM",
     "rootPlaceholders": [
       "jss-main"
     ],
