@@ -1,51 +1,48 @@
 ﻿---
-ID: "c1e11547-65bb-4aff-aa04-77b0884f2ff6"
+ID: "a61412f3-125c-466d-afd5-cc4d8e5531bd"
 Parent: "9c6cf8f2-7793-4cc0-a140-0a4a981e69a7"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/Blog Module/Hero Banner
+Path: /sitecore/layout/Renderings/Feature/Blog Module/Featured Blogs
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: HeroBanner
+  Value: FeaturedBlogs
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Blog Module/Hero Banner/HeroBanner
-- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
-  Hint: Parameters Template
-  Value: "{C93FF78F-85E4-42A0-9154-9BEE8B0EF7AE}"
+  Value: /sitecore/templates/Feature/Blog Module/Page Content/BlogList
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/developers/BlogModuleXM/Data/Hero Banner
+  Value: /sitecore/content/developers/BlogModuleXM/Data/Blog List Type
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a92d9d3a-6283-4a91-bd8e-9dcac85bfe4c"
+  Value: "5745a12c-a2da-4956-b8a1-188108abbae2"
 Languages:
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "6ea0e435-f94e-4b4f-9dbe-75915f461549"
+    Value: "e937ebfa-ecad-41e6-883e-382e331a5ec0"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250722T140018Z
+      Value: 20250723T072623Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0c053047-7bba-44c1-abe3-e8c6e1396e87"
+      Value: "2c268748-eeef-4337-842e-8167c678e031"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T071901Z
+      Value: 20250723T081426Z

@@ -7,7 +7,47 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{EF011467-EBAA-4A8D-A141-32D9B8BF33D9}" />
+    <image mediaid="{35ABB44F-2300-4C93-94B7-377AD6C36D38}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1890573c-2008-46ef-aed8-8ed902aaac45"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2A659642-65E6-42E8-B4B9-380550FBFCE5}"
+          p:before="*"
+          s:ds="{3146A59C-00B5-40C3-A218-A335637135D5}"
+          s:id="{C1E11547-65BB-4AFF-AA04-77B0884F2FF6}"
+          s:par="backgroundColor=bg-blue-500&amp;textColor=text-black&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{E40A461D-D242-4D83-A0FE-D634D913468A}"
+          p:after="r[@uid='{2A659642-65E6-42E8-B4B9-380550FBFCE5}']"
+          s:ds="{42E9F21E-F238-4D56-B05F-26EFBD5601A1}"
+          s:id="{A61412F3-125C-466D-AFD5-CC4D8E5531BD}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{987E5F1C-36B5-4E2B-8C85-BBA50A5FA6E6}"
+          p:after="r[@uid='{E40A461D-D242-4D83-A0FE-D634D913468A}']"
+          s:ds="{3BC26880-25F3-410C-815F-9DD284C0E470}"
+          s:id="{062A5BAF-37E2-4E75-B203-B889EF3757B9}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0F438290-E86F-449B-B05A-F6AB2C12FE47}"
+          p:after="*[1=2]"
+          s:ds="{ECA26290-0F06-4C8E-AACD-144A8ADBFA63}"
+          s:id="{0828716A-8B6C-4DE6-A147-43C437EA550F}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -29,14 +69,14 @@ Languages:
         sitecore\hmaurya@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55b524db-2bb6-4baa-8797-39c94a22fe08"
+      Value: "76110a4f-a5ae-42c6-b31e-87485d0cf9ef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d49a40d3-b4f8-453d-b8a8-2d54dd55b44c"
       Hint: Title
       Value: Blogs
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250722T134134Z
+      Value: 20250723T081605Z

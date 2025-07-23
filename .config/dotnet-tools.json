@@ -6,7 +6,15 @@
       "version": "5.2.113",
       "commands": [
         "sitecore"
-      ]
+      ],
+      "rollForward": false
+    },
+    "leprechaun.cli": {
+      "version": "2.2.6",
+      "commands": [
+        "leprechaun"
+      ],
+      "rollForward": false
     }
   }
 }

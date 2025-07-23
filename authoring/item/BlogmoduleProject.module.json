@@ -1,40 +1,48 @@
 {
-    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
-    "namespace": "Project.BlogModule",
-    "items": {
-        "path": "Project",
-        "includes": [
-            {
-                "name": "templates",
-                "path": "/sitecore/templates/Project/developers",
-                "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-                "name": "contentRoot",
-                "path": "/sitecore/content/developers",
-                "scope": "SingleItem",
-                "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-                "name": "mediaFolder",
-                "path": "/sitecore/media library/Project/developers",
-                "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-                "name": "BlogMOdule",
-                "path": "/sitecore/content/developers/BlogModuleXM",
-                "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-                "name": "Project-rendering",
-                "path": "/sitecore/layout/Renderings/Project/developers",
-                "allowedPushOperations": "createUpdateAndDelete"
-            },
-            {
-                "name": "Project-Placeholder",
-                "path": "/sitecore/layout/Placeholder Settings/Project/developers",
-                "allowedPushOperations": "createUpdateAndDelete"
-            }
-        ]
-    }
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.BlogModule",
+  "items": {
+    "path": "Project",
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/developers",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "contentRoot",
+        "path": "/sitecore/content/developers",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "mediaFolder",
+        "path": "/sitecore/media library/Project/developers",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "BlogMOdule",
+        "path": "/sitecore/content/developers/BlogModuleXM",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "Project-rendering",
+        "path": "/sitecore/layout/Renderings/Project/developers",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Project-Placeholder",
+        "path": "/sitecore/layout/Placeholder Settings/Project/developers",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": [
+      {
+        "@extends": "BlogModuleXM.Base",
+        "@name": "Project.developers"
+      }
+    ]
+  }
 }

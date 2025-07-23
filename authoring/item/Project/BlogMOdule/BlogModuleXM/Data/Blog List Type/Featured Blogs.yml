@@ -1,0 +1,26 @@
+﻿---
+ID: "42e9f21e-f238-4d56-b05f-26efbd5601a1"
+Parent: "72598dba-8449-4997-b5ca-4023a31c4689"
+Template: "fa309822-729c-4a09-9bc7-1e889b9cb491"
+Path: /sitecore/content/developers/BlogModuleXM/Data/Blog List Type/Featured Blogs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250723T081329Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3800c44a-4814-4519-9f71-919275953e83"
+    - ID: "8fe76788-d180-4404-a16c-394ae349efc3"
+      Hint: title
+      Value: Featured Blogs
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\spachchigar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250723T081329Z

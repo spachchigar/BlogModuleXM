@@ -13,7 +13,7 @@ SharedFields:
   Value: isSiteThumbnailSource=true
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
-  Value: "{7387FD7F-9E1B-49B1-96E2-7AD7CA7DA4E0}"
+  Value: 
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: BlogModuleXM
@@ -28,7 +28,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5b6c55e5-3ac2-454e-b5e3-a409cb2eee46"
+  Value: "770fc5b1-cd56-4982-80e7-9026a8ce32bc"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -53,11 +53,11 @@ Languages:
         sitecore\hmaurya@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "247f211b-6f56-4b2b-b9ec-585d3b20e7d2"
+      Value: "88c2a26b-55a7-476b-b2f3-cf18d589f952"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250722T130037Z
+      Value: 20250723T063440Z
