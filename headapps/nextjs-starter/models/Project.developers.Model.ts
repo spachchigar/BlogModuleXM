@@ -706,36 +706,36 @@ export namespace Services {
 
     }
 }
-export namespace Parthxmc.ServicesCards {
+// export namespace Parthxmc.ServicesCards {
 
-    /**
-    * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Cards/Services Cards
-    */
-    export type ServicesCards = .Page &  {
-        fields?: { 
-            /**
-            * Represents the Services field (832a779d-3920-443f-b435-a1035254d2d7).
-            */
-            Services?: Item[];
-        }
+//     /**
+//     * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Cards/Services Cards
+//     */
+//     export type ServicesCards = .Page &  {
+//         fields?: { 
+//             /**
+//             * Represents the Services field (832a779d-3920-443f-b435-a1035254d2d7).
+//             */
+//             Services?: Item[];
+//         }
 
-    }
+//     }
 
-    /**
-    * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Cards/Services Cards
-    */
-    export type ServicesCardsJson = .PageJson &  {
+//     /**
+//     * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Cards/Services Cards
+//     */
+//     export type ServicesCardsJson = .PageJson &  {
         
-            /**
-            * Represents the Services field (832a779d-3920-443f-b435-a1035254d2d7).
-            */
-            Services?: {
-                jsonValue: Item[]
-            };
+//             /**
+//             * Represents the Services field (832a779d-3920-443f-b435-a1035254d2d7).
+//             */
+//             Services?: {
+//                 jsonValue: Item[]
+//             };
 
 
-    }
-}
+//     }
+// }
 export namespace Services {
 
     /**
@@ -772,78 +772,78 @@ export namespace Services.RenderingParameters {
 
     }
 }
-export namespace Parthxmc.ServicesDetails {
+// export namespace Parthxmc.ServicesDetails {
 
-    /**
-    * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Details/Services Details
-    */
-    export type ServicesDetails = .Page &  {
-        fields?: { 
-            /**
-            * Represents the Description field (9ecd6b68-11f4-42ee-afae-e16882161e0e).
-            */
-            Description?: Field<string>;
+//     /**
+//     * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Details/Services Details
+//     */
+//     export type ServicesDetails = .Page &  {
+//         fields?: { 
+//             /**
+//             * Represents the Description field (9ecd6b68-11f4-42ee-afae-e16882161e0e).
+//             */
+//             Description?: Field<string>;
 
-            /**
-            * Represents the Image field (d04fb895-3226-4449-850b-fab0d9cee3b7).
-            */
-            Image?: ImageField;
+//             /**
+//             * Represents the Image field (d04fb895-3226-4449-850b-fab0d9cee3b7).
+//             */
+//             Image?: ImageField;
 
-            /**
-            * Represents the TitleName field (2b667b31-03e6-42e3-91ff-912eedf5a608).
-            */
-            TitleName?: Field<string>;
-        }
+//             /**
+//             * Represents the TitleName field (2b667b31-03e6-42e3-91ff-912eedf5a608).
+//             */
+//             TitleName?: Field<string>;
+//         }
 
-    }
+//     }
 
-    /**
-    * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Details/Services Details
-    */
-    export type ServicesDetailsJson = .PageJson &  {
+//     /**
+//     * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Details/Services Details
+//     */
+//     export type ServicesDetailsJson = .PageJson &  {
         
-            /**
-            * Represents the Description field (9ecd6b68-11f4-42ee-afae-e16882161e0e).
-            */
-            Description?: {
-                jsonValue: Field<string>
-            };
+//             /**
+//             * Represents the Description field (9ecd6b68-11f4-42ee-afae-e16882161e0e).
+//             */
+//             Description?: {
+//                 jsonValue: Field<string>
+//             };
 
-            /**
-            * Represents the Image field (d04fb895-3226-4449-850b-fab0d9cee3b7).
-            */
-            Image?: {
-                jsonValue: ImageField
-            };
+//             /**
+//             * Represents the Image field (d04fb895-3226-4449-850b-fab0d9cee3b7).
+//             */
+//             Image?: {
+//                 jsonValue: ImageField
+//             };
 
-            /**
-            * Represents the TitleName field (2b667b31-03e6-42e3-91ff-912eedf5a608).
-            */
-            TitleName?: {
-                jsonValue: Field<string>
-            };
+//             /**
+//             * Represents the TitleName field (2b667b31-03e6-42e3-91ff-912eedf5a608).
+//             */
+//             TitleName?: {
+//                 jsonValue: Field<string>
+//             };
 
 
-    }
-}
-export namespace Parthxmc.ServicesOverview {
+//     }
+// }
+// export namespace Parthxmc.ServicesOverview {
 
-    /**
-    * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Overview/Services Overview
-    */
-    export type ServicesOverview = .Page &  {
-        fields?: {         }
+//     /**
+//     * Represents the template /sitecore/templates/Project/developers/Parth-xmc/Services Overview/Services Overview
+//     */
+//     export type ServicesOverview = .Page &  {
+//         fields?: {         }
 
-    }
+//     }
 
-    /**
-    * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Overview/Services Overview
-    */
-    export type ServicesOverviewJson = .PageJson &  {
+//     /**
+//     * Represents the GraphQL template /sitecore/templates/Project/developers/Parth-xmc/Services Overview/Services Overview
+//     */
+//     export type ServicesOverviewJson = .PageJson &  {
         
 
-    }
-}
+//     }
+// }
 export namespace Sample.Project.developers {
 
     /**
