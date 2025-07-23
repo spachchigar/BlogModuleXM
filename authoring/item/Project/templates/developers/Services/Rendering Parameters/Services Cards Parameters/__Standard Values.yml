@@ -1,0 +1,27 @@
+﻿---
+ID: "69c8c01a-df29-42f2-ae7a-326e89c4b308"
+Parent: "919c9852-06b9-4946-be59-0dd1ca97136b"
+Template: "919c9852-06b9-4946-be59-0dd1ca97136b"
+Path: /sitecore/templates/Project/developers/Services/Rendering Parameters/Services Cards Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ea6193d-cf8d-45c3-abc4-fc49721b21eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250718T102251Z

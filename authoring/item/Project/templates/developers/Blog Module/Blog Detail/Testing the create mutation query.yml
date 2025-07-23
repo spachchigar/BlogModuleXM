@@ -1,0 +1,42 @@
+﻿---
+ID: "a9a4fc52-8603-4c25-b348-1486a224e0f6"
+Parent: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
+Template: "93548a84-b3e2-4060-90a4-30a8ee157b6e"
+Path: /sitecore/templates/Project/developers/Blog Module/Blog Detail/Testing the create mutation query
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{24E1B936-0440-41FC-AC64-57F370C90876}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250721T065154Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Testing the create mutation query
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\htandel@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\htandel@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9a6e250-d5c6-4c50-89ec-0f69e32867f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d49a40d3-b4f8-453d-b8a8-2d54dd55b44c"
+      Hint: Title
+      Value: Testing the create mutation query
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T131254Z

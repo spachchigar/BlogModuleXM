@@ -1,0 +1,72 @@
+﻿---
+ID: "9d77d7b2-a17c-404d-97cb-7eecad24b4fc"
+Parent: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
+Path: /sitecore/content/developers/BlogModuleXM/Presentation/Page Branches/Blog Module/Blog Details/$name
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DA383C3B-4DF6-4B8A-97A6-E80FB7DD4315}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "096ff52d-4380-4ad0-ae40-8d0d02bee124"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2E8EFED4-4253-4A4C-89F5-8729745AAF40}"
+          p:before="*"
+          s:ds="{3146A59C-00B5-40C3-A218-A335637135D5}"
+          s:id="{C1E11547-65BB-4AFF-AA04-77B0884F2FF6}"
+          s:par="backgroundColor=bg-blue-500&amp;textColor=text-white&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{EADA9D9C-F54C-4E60-8839-E978752E11A4}"
+          p:after="r[@uid='{2E8EFED4-4253-4A4C-89F5-8729745AAF40}']"
+          s:ds="local:/Data/Blog Title"
+          s:id="{4291D869-CFA4-41F3-ACD9-C24D6841B30A}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{F6CA3AB8-0096-4849-B35D-70D40490B349}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Blog Description"
+          s:id="{D4381AEF-9488-4400-A78F-24FA581FFC76}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T135216Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
+      Hint: publishDate
+      Value: 20250722T135216Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b38368af-9104-49c6-82ad-995345035509"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rodedara@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250723T052816Z

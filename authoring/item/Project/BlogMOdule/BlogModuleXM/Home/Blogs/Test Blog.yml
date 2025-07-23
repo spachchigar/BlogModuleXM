@@ -1,0 +1,82 @@
+﻿---
+ID: "4f3720a2-ad70-4632-b2e7-b454d6a35bf9"
+Parent: "f372eb01-1228-45d3-8fec-92808218647b"
+Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
+Path: /sitecore/content/developers/BlogModuleXM/Home/Blogs/Test Blog
+BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1EB411B7-66A5-4903-B951-B1910DD16140}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "034be574-5b38-41e4-ad86-27740ef4f32d"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2E8EFED4-4253-4A4C-89F5-8729745AAF40}"
+          p:before="*"
+          s:ds="{3146A59C-00B5-40C3-A218-A335637135D5}"
+          s:id="{C1E11547-65BB-4AFF-AA04-77B0884F2FF6}"
+          s:par="backgroundColor=bg-blue-500&amp;textColor=text-white&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{EADA9D9C-F54C-4E60-8839-E978752E11A4}"
+          p:after="r[@uid='{2E8EFED4-4253-4A4C-89F5-8729745AAF40}']"
+          s:ds="local:/Data/Blog Title"
+          s:id="{4291D869-CFA4-41F3-ACD9-C24D6841B30A}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{F6CA3AB8-0096-4849-B35D-70D40490B349}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Blog Description"
+          s:id="{D4381AEF-9488-4400-A78F-24FA581FFC76}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9D77D7B2-A17C-404D-97CB-7EECAD24B4FC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250723T053417Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test Blog
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
+      Hint: publishDate
+      Value: 20250722T135216Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rodedara@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89b83065-1af4-4254-92e7-8c033e3ff40a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rodedara@horizontal.com
+    - ID: "d84d7746-ec8f-4734-8ed2-694eaf0c2109"
+      Hint: Title
+      Value: Test Blog
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250723T053529Z

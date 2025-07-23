@@ -1,0 +1,38 @@
+﻿---
+ID: "2d05324f-ce3f-4c8a-bb42-f4193f9baba6"
+Parent: "8de8ca32-48f8-4700-9685-dbe270b94309"
+Template: "8de8ca32-48f8-4700-9685-dbe270b94309"
+Path: "/sitecore/templates/Project/developers/Parth-xmc/Services Overview/Services Overview/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4EAD1FB9-5FC9-4E0A-A3E3-6AA58E4065B8}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6043915d-9000-4449-99ab-c8e499f8f477"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250718T095343Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbc3c207-056b-42df-a57a-f74eee63ce12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250718T095656Z

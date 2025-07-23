@@ -1,0 +1,44 @@
+﻿---
+ID: "8c5e4ea6-01fa-4634-9393-d6e92c8b0dd3"
+Parent: "136d956e-4fec-43af-8fab-ef5728a1ac5a"
+Template: "136d956e-4fec-43af-8fab-ef5728a1ac5a"
+Path: "/sitecore/templates/Project/developers/Parth-xmc/TextAndTitle/TextAndTitle/__Standard Values"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: wordprocessing/32x32/comment_h.png
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "370504ae-d867-4db9-993f-328382247b98"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250716T065510Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "75f32288-5dee-4e4c-aaec-95a8402e0d28"
+      Hint: Title
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c3b1028-fd97-4a89-a613-c05788d1e14c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250716T072008Z
+    - ID: "f3efeb96-afd4-4d7e-a8b7-0244fce893bd"
+      Hint: Description
+      Value: "{Start with a Capital Letter and End with a Dot} is a require value."
