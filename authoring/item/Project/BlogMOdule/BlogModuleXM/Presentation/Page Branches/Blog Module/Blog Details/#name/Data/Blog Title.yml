@@ -1,0 +1,29 @@
+﻿---
+ID: "6c0e8331-ec2e-4d53-88af-f7f9c238b271"
+Parent: "f0d853e6-0081-4457-bdc7-e029c14ff7fc"
+Template: "bb5b0624-6165-49ae-beda-377931d95a19"
+Path: /sitecore/content/developers/BlogModuleXM/Presentation/Page Branches/Blog Module/Blog Details/$name/Data/Blog Title
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T135523Z
+    - ID: "5929d3ca-c832-4cac-a8c6-bc2464dbd5d7"
+      Hint: publishData
+      Value: 20250722T135523Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13cb2d6b-8ada-49d5-ba18-931ab0bbb468"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T135523Z
+    - ID: "feb97476-c410-4511-a519-bca8e53a6fb2"
+      Hint: title
+      Value: Blog Title

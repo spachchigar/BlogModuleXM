@@ -1,0 +1,41 @@
+﻿---
+ID: "3146a59c-00b5-40c3-a218-a335637135d5"
+Parent: "6c2890e6-8229-4d20-b3ab-3d2b642dd6d7"
+Template: "b5db9e02-8d6d-4958-821b-28b4a6ced8e7"
+Path: /sitecore/content/developers/BlogModuleXM/Data/Hero Banner/HeroBanner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T135643Z
+    - ID: "361f1036-6caf-4676-814c-1e8af220abc7"
+      Hint: description
+      Value: Hori Digital Hori Digital Hori Digital Hori Digital
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5e952351-69bb-4b5a-9a35-e5d8fb56f017"
+      Hint: title
+      Value: Hori Digital
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cdc92bce-fc2b-414c-a186-82abf35f6249"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d7655917-a518-4ca0-bf15-aa72a2fea23a"
+      Hint: image
+      Value: |
+        <image mediaid="{0D9C2383-BC1F-48EF-81E4-DD8307BC6E55}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T135716Z

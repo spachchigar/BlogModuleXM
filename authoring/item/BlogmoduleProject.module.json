@@ -1,0 +1,24 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Project.BlogModule",
+    "items": {
+        "path": "Project",
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/developers",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "BlogMOdule",
+                "path": "/sitecore/content/developers/BlogModuleXM",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "Project-rendering",
+                "path": "/sitecore/layout/Renderings/Project/developers",
+                "allowedPushOperations": "createUpdateAndDelete"
+            }
+        ]
+    }
+}

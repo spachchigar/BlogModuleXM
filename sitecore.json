@@ -1,7 +1,7 @@
 {
   "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
   "modules": [
-    "authoring/items/**/*.module.json"
+    "authoring/item/**/*.module.json"
   ],
   "plugins": [
     "Sitecore.DevEx.Extensibility.Serialization@5.2.113",
@@ -12,7 +12,7 @@
   ],
   "serialization": {
     "defaultMaxRelativeItemPathLength": 100,
-    "defaultModuleRelativeSerializationPath": "items",
+    "defaultModuleRelativeSerializationPath": "serialization",
     "removeOrphansForRoles": true,
     "removeOrphansForUsers": true,
     "continueOnItemFailure": false,

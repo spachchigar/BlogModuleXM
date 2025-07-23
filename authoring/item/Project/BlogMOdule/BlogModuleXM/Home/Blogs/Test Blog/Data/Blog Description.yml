@@ -1,0 +1,39 @@
+﻿---
+ID: "7636d1a8-b1fd-4389-bd86-dda9da0b50bd"
+Parent: "d8bcde63-105f-4eda-aa57-ee320524e520"
+Template: "443251a1-0226-482a-b9d7-248a18258328"
+Path: /sitecore/content/developers/BlogModuleXM/Home/Blogs/Test Blog/Data/Blog Description
+BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1A97B7A0-D7DF-4721-AF39-9D40C023C870}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250723T053417Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rodedara@horizontal.com
+    - ID: "5f29d2d2-1ff8-4c58-82d4-75249082719b"
+      Hint: text
+      Value: horizontal digigtal&nbsp;&nbsp;horizontal digigtal&nbsp;&nbsp;horizontal digigtal&nbsp;
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2ed69bb-01c3-46b2-a3a3-d65ff6c27f03"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rodedara@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250723T053505Z

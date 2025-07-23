@@ -1,0 +1,38 @@
+﻿---
+ID: "15a65b29-d196-47fe-a48f-f67e37605c39"
+Parent: "37f9d3df-5e7e-4d54-a95c-b08bdd8b2b91"
+Template: "597e27c7-aa46-4a16-b109-02a93fcf1f25"
+Path: /sitecore/content/developers/BlogModuleXM/Data/General Links/Navigation Links/Blog
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T134019Z
+    - ID: "3bb0d3ea-7a6d-41d5-b86e-3ff45b87730d"
+      Hint: link
+      Value: |
+        <link text="Blog" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F372EB01-1228-45D3-8FEC-92808218647B}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49cd7ddc-5f13-4a23-9e0a-4350c9b44882"
+    - ID: "ad4e1976-1c4c-480a-9db5-aab351ac0c78"
+      Hint: title
+      Value: Blog
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T134158Z

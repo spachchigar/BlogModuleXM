@@ -1,0 +1,46 @@
+﻿---
+ID: "a77f9a90-d79d-4465-a6b1-9873e6756298"
+Parent: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
+Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
+Path: /sitecore/templates/Project/developers/Blog Module/Blog Detail/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {93548A84-B3E2-4060-90A4-30A8EE157B6E}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5e999c2b-a872-49ec-b786-1c17596ae796"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250527T063216Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\spatel@horizontal.com
+    - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
+      Hint: publishDate
+      Value: $now
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\spatel@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3f3527f-da00-4bfd-b38c-f1198a48d2a6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d84d7746-ec8f-4734-8ed2-694eaf0c2109"
+      Hint: Title
+      Value: $name
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T131200Z

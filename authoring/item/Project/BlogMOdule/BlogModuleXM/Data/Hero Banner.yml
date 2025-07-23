@@ -1,0 +1,23 @@
+﻿---
+ID: "6c2890e6-8229-4d20-b3ab-3d2b642dd6d7"
+Parent: "b9a6b84b-5ab1-4646-aacd-80ba9dc8cd43"
+Template: "01a5c268-0d89-4ba5-b3db-75ea15717865"
+Path: /sitecore/content/developers/BlogModuleXM/Data/Hero Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T135638Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86e98de7-ca18-45f2-86b1-142c045db158"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T135638Z

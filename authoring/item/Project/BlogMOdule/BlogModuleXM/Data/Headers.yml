@@ -1,0 +1,23 @@
+﻿---
+ID: "227c031b-844b-4f7c-8295-61242a9bdde0"
+Parent: "b9a6b84b-5ab1-4646-aacd-80ba9dc8cd43"
+Template: "e97a7e33-8445-42f2-85b5-941b8a4b6ba1"
+Path: /sitecore/content/developers/BlogModuleXM/Data/Headers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250722T134737Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd5fa6e6-cc3a-46bb-896e-1f8af07914a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T134737Z

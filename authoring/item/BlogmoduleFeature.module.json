@@ -1,0 +1,19 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Feature.BlogModule",
+    "items": {
+        "path": "Feature",
+        "includes": [
+            {
+                "name": "Feature-Templates",
+                "path": "/sitecore/templates/Feature/Blog Module",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "Feature-rendering",
+                "path": "/sitecore/layout/Renderings/Feature/Blog Module",
+                "allowedPushOperations": "createUpdateAndDelete"
+            }
+        ]
+    }
+}

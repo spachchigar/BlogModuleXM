@@ -1,0 +1,36 @@
+﻿---
+ID: "c32c54cf-7e82-4f29-ab16-7aa69619e5ec"
+Parent: "aa3c2279-ce2d-46df-9a9b-2415995b7a80"
+Template: "aa3c2279-ce2d-46df-9a9b-2415995b7a80"
+Path: /sitecore/templates/Project/developers/Services/Services Cards Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {87F78944-F4B1-4F04-A964-3A025D5397FD}
+    {AA3C2279-CE2D-46DF-9A9B-2415995B7A80}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4d349605-c2dc-4eb7-b3c7-b627df802bdb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f15044e-2ac3-417e-b751-3900eb7d8658"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parth.suthar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250718T102257Z
