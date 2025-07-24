@@ -1,8 +1,8 @@
 ﻿---
-ID: "961bef7b-5f60-4100-b96f-c2588e0f1e47"
-Parent: "d8bcde63-105f-4eda-aa57-ee320524e520"
+ID: "de84ff87-1ec0-4eb4-b514-cffdbdf2b5e4"
+Parent: "5bcb50e1-df63-406c-9723-35a14e6baddb"
 Template: "bb5b0624-6165-49ae-beda-377931d95a19"
-Path: /sitecore/content/developers/BlogModuleXM/Home/Blogs/Test Blog/Data/Blog Title
+Path: "/sitecore/content/developers/BlogModuleXM/Home/Blogs/Content-Modeling-Strategies-for-Scalable-CMS/Data/Blog Title"
 BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -15,31 +15,28 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250723T053418Z
+      Value: 20250724T051345Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\rodedara@horizontal.com
-    - ID: "5929d3ca-c832-4cac-a8c6-bc2464dbd5d7"
-      Hint: publishData
-      Value: 20250722T135523Z
+        sitecore\spachchigar@horizontal.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "8966c8ab-4084-4b25-bea1-c65702256cdb"
       Hint: author
       Value: "{10BF99DA-76F2-46BF-B54A-F930BCB55FB2}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94909b05-59e2-4efa-9c91-83ce459a389d"
+      Value: "dd581957-2303-4066-92c8-525e421c88ab"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T053511Z
+      Value: 20250724T053126Z
     - ID: "feb97476-c410-4511-a519-bca8e53a6fb2"
       Hint: title
-      Value: Blog Title
+      Value: Content Modeling Strategies for Scalable CMS

@@ -1,17 +1,17 @@
 ﻿---
-ID: "4f3720a2-ad70-4632-b2e7-b454d6a35bf9"
+ID: "1b5bfe8e-afac-459d-b7e5-73d7ec701a94"
 Parent: "f372eb01-1228-45d3-8fec-92808218647b"
 Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
-Path: /sitecore/content/developers/BlogModuleXM/Home/Blogs/Test Blog
+Path: "/sitecore/content/developers/BlogModuleXM/Home/Blogs/10-SEO-Techniques-to-Boost-Organic-Traffic"
 BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{1EB411B7-66A5-4903-B951-B1910DD16140}" />
+    <image mediaid="{3FD89A43-A2AD-478C-9556-73CAC0CBABFD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "034be574-5b38-41e4-ad86-27740ef4f32d"
+  Value: "8ded22bb-94df-49e4-841a-bf116d1490f7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -24,7 +24,7 @@ SharedFields:
           p:before="*"
           s:ds="{3146A59C-00B5-40C3-A218-A335637135D5}"
           s:id="{C1E11547-65BB-4AFF-AA04-77B0884F2FF6}"
-          s:par="backgroundColor=bg-blue-500&amp;textColor=text-white&amp;CSSStyles"
+          s:par="backgroundColor=bg-blue-500&amp;textColor=text-black&amp;CSSStyles"
           s:ph="headless-main" />
         <r
           uid="{EADA9D9C-F54C-4E60-8839-E978752E11A4}"
@@ -50,33 +50,40 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04066216-c68d-4f8c-b4e0-eca1c9190b3d"
+      Hint: cardImage
+      Value: |
+        <image mediaid="{50035ED3-E632-4F32-9454-86B4F0102039}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250723T053417Z
+      Value: 20250724T053845Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Test Blog
+      Value: "10-SEO-Techniques-to-Boost-Organic-Traffic"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\hmaurya@horizontal.com
     - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
       Hint: publishDate
-      Value: 20250722T135216Z
+      Value: 20250728T135200Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89b83065-1af4-4254-92e7-8c033e3ff40a"
+      Value: "c0960626-408e-4ad3-b69d-6bad1cd24f45"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d84d7746-ec8f-4734-8ed2-694eaf0c2109"
       Hint: Title
-      Value: Test Blog
+      Value: "10-SEO-Techniques-to-Boost-Organic-Traffic"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T053529Z
+      Value: 20250724T053901Z
+    - ID: "f178d888-87a9-42e1-93f7-793f3c570a0a"
+      Hint: shortDescription
+      Value: Boost your site’s organic traffic with these 10 proven SEO strategies—from keywords to technical optimization

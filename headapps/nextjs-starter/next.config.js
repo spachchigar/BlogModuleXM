@@ -28,7 +28,7 @@ const nextConfig = {
   },
 
   // Enable React Strict Mode
-  reactStrictMode: true,
+  reactStrictMode: false,
 
   // Disable the X-Powered-By header. Follows security best practices.
   poweredByHeader: false,
@@ -56,6 +56,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'xmcloudcm.localhost',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cm',
         port: '',
       },
     ],

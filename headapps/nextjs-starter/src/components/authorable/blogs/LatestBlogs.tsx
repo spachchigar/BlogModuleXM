@@ -95,6 +95,7 @@ export const Default = (props: LatestBlogProps): JSX.Element => {
 
   useEffect(() => {
     fetchBlogs({ sortOrder: currentSortOrder });
+    console.log('Called fetchBlogs');
   }, [currentPage, currentSortOrder]);
 
   if (loading) {

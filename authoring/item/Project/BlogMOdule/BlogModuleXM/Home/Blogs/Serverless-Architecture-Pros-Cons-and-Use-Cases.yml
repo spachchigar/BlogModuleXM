@@ -1,16 +1,17 @@
 ﻿---
-ID: "9d77d7b2-a17c-404d-97cb-7eecad24b4fc"
-Parent: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+ID: "64d83655-05d9-44c0-9371-9ccd11bb3bc6"
+Parent: "f372eb01-1228-45d3-8fec-92808218647b"
 Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
-Path: /sitecore/content/developers/BlogModuleXM/Presentation/Page Branches/Blog Module/Blog Details/$name
+Path: "/sitecore/content/developers/BlogModuleXM/Home/Blogs/Serverless-Architecture-Pros-Cons-and-Use-Cases"
+BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{85B93AAC-C00A-4594-AF26-209B463BF7E6}" />
+    <image mediaid="{D2767FFA-F752-4472-A650-815FD8613BD1}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1901435a-7e28-48d7-9956-1445eb99df15"
+  Value: "896e5860-f8d2-4417-a7f2-34009fef9e33"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -41,32 +42,48 @@ SharedFields:
           s:ph="headless-main" />
       </d>
     </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9D77D7B2-A17C-404D-97CB-7EECAD24B4FC}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "04066216-c68d-4f8c-b4e0-eca1c9190b3d"
+      Hint: cardImage
+      Value: |
+        <image mediaid="{36124982-84F8-4B65-8C98-B246372A94A1}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250722T135216Z
+      Value: 20250724T053035Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Serverless-Architecture-Pros-Cons-and-Use-Cases"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\hmaurya@horizontal.com
     - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
       Hint: publishDate
-      Value: 20250722T135216Z
+      Value: 20250701T135200Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d944e82d-87ca-4c33-8750-1f9fe9302fad"
+      Value: "b2bf5071-5f96-433c-a65f-4547271d513c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\spachchigar@horizontal.com
+    - ID: "d84d7746-ec8f-4734-8ed2-694eaf0c2109"
+      Hint: Title
+      Value: "Serverless-Architecture-Pros-Cons-and-Use-Cases"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T084535Z
+      Value: 20250724T053731Z
+    - ID: "f178d888-87a9-42e1-93f7-793f3c570a0a"
+      Hint: shortDescription
+      Value: "Serverless architecture offers developers a scalable, low-maintenance environment ideal for event-driven and modular applications. While it simplifies deployment and reduces costs, it’s not a silver bullet—cold starts and stateless execution present challenges for complex workloads."

@@ -17,8 +17,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
         }
     : null;
   const publishDate = data.publishDate;
-  console.log(data);
-  console.log(publishDate);
+
   return (
     <div className="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md">
       <Link href={blogLink} className="block">

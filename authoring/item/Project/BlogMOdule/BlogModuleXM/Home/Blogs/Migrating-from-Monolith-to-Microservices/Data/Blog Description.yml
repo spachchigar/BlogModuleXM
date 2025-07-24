@@ -1,0 +1,78 @@
+﻿---
+ID: "aeed115d-61e2-4df3-8151-2cac99db7606"
+Parent: "d9b8e107-76c8-44e5-993b-22ef604dd3e1"
+Template: "443251a1-0226-482a-b9d7-248a18258328"
+Path: "/sitecore/content/developers/BlogModuleXM/Home/Blogs/Migrating-from-Monolith-to-Microservices/Data/Blog Description"
+BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1A97B7A0-D7DF-4721-AF39-9D40C023C870}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250724T053310Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hmaurya@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\spachchigar@horizontal.com
+    - ID: "5f29d2d2-1ff8-4c58-82d4-75249082719b"
+      Hint: text
+      Value: |
+        <div classname="prose prose-lg max-w-none">
+          <p>
+            Next.js has revolutionized the way developers build web applications. Combining the best of client-side and server-side rendering, it allows you to build fast, scalable, and SEO-friendly apps.
+          </p>
+        
+          <h2 classname="text-xl font-semibold mt-6">🚀 Getting Started</h2>
+          <p>To create your first Next.js app, run the following command:</p>
+          <pre classname="bg-gray-100 p-4 rounded-md"><code>npx create-next-app@latest my-app</code></pre>
+        
+          <p>This will scaffold your project with a clean folder structure including:</p>
+          <ul classname="list-disc list-inside">
+            <li><strong>pages/</strong> – for routing</li>
+            <li><strong>public/</strong> – for static assets</li>
+            <li><strong>styles/</strong> – for global and component-level styles</li>
+          </ul>
+        
+          <h2 classname="text-xl font-semibold mt-6">💡 Features That Set It Apart</h2>
+          <ul classname="list-disc list-inside">
+            <li><strong>Server-Side Rendering (SSR):</strong> Improves SEO and performance</li>
+            <li><strong>Static Site Generation (SSG):</strong> Blazing-fast builds with pre-rendered content</li>
+            <li><strong>API Routes:</strong> Backend logic within the same codebase</li>
+          </ul>
+        
+          <p>
+            Need styling? Integrate with <a href="https://tailwindcss.com/" classname="text-blue-600 underline" target="_blank">Tailwind CSS</a> or <strong>CSS Modules</strong> for scalable design systems.
+          </p>
+        
+          <h2 classname="text-xl font-semibold mt-6">🌐 Deployment Made Easy</h2>
+          <p>
+            Vercel, the creators of Next.js, offer one-click deployment with GitHub integration. Learn more on <a href="https://vercel.com/docs" classname="text-blue-600 underline" target="_blank">Vercel Docs</a>.
+          </p>
+        
+          <h2 classname="text-xl font-semibold mt-6">🔗 Helpful Links</h2>
+          <ul classname="list-disc list-inside">
+            <li><a href="https://nextjs.org/docs" classname="text-blue-600 underline" target="_blank">Next.js Official Docs</a></li>
+            <li><a href="https://github.com/vercel/next.js/" classname="text-blue-600 underline" target="_blank">GitHub Repo</a></li>
+          </ul>
+        </div>
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88dacf13-aea6-4561-9f1c-821012825f8b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\spachchigar@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250724T053337Z

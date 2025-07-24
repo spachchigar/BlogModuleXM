@@ -6,13 +6,13 @@ Path: /sitecore/layout/Renderings/Feature/Blog Module/Page Content/Blog Title
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Blog Title
+  Value: BlogTitle
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/Blog Module/Page Content/Blog Title
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f270ec2a-6156-4e63-ae3e-aa6fb6d86cc7"
+  Value: "24b67131-b034-4da6-8420-6a1be3b185a7"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +31,11 @@ Languages:
         sitecore\rodedara@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fffdd2b7-e4ac-4e40-8414-8c7fe37985e2"
+      Value: "f3dad1e9-b933-423c-adc4-ea858c85e2c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T052540Z
+      Value: 20250723T084502Z

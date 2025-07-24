@@ -1,16 +1,17 @@
 ﻿---
-ID: "9d77d7b2-a17c-404d-97cb-7eecad24b4fc"
-Parent: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
+ID: "6ac087b8-3485-41b6-b35b-d3bd3fad4cb3"
+Parent: "f372eb01-1228-45d3-8fec-92808218647b"
 Template: "c93ed2f0-0725-4727-a332-e9927fdb12c4"
-Path: /sitecore/content/developers/BlogModuleXM/Presentation/Page Branches/Blog Module/Blog Details/$name
+Path: "/sitecore/content/developers/BlogModuleXM/Home/Blogs/Content-Modeling-Strategies-for-Scalable-CMS"
+BranchID: "1f8515dd-cb1c-40b7-bc4f-49e4479227e0"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{85B93AAC-C00A-4594-AF26-209B463BF7E6}" />
+    <image mediaid="{D7E5086E-80D2-44BA-94B3-24F84F66E1A1}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1901435a-7e28-48d7-9956-1445eb99df15"
+  Value: "e179e8d1-1cf6-4ff2-99ac-d0dd1352c4d6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -41,32 +42,48 @@ SharedFields:
           s:ph="headless-main" />
       </d>
     </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9D77D7B2-A17C-404D-97CB-7EECAD24B4FC}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "04066216-c68d-4f8c-b4e0-eca1c9190b3d"
+      Hint: cardImage
+      Value: |
+        <image mediaid="{015A7C66-4361-449C-9644-325CDBD1AB38}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250722T135216Z
+      Value: 20250724T051344Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Content-Modeling-Strategies-for-Scalable-CMS"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\hmaurya@horizontal.com
     - ID: "5c4c0186-a517-495b-bec1-ff84aabf0e2a"
       Hint: publishDate
-      Value: 20250722T135216Z
+      Value: 20250711T135200Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d944e82d-87ca-4c33-8750-1f9fe9302fad"
+      Value: "9b42ddc2-1b05-408d-b733-6fcd5a900903"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\spachchigar@horizontal.com
+    - ID: "d84d7746-ec8f-4734-8ed2-694eaf0c2109"
+      Hint: Title
+      Value: "Content-Modeling-Strategies-for-Scalable-CMS"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T084535Z
+      Value: 20250724T053724Z
+    - ID: "f178d888-87a9-42e1-93f7-793f3c570a0a"
+      Hint: shortDescription
+      Value: "Effective content modeling is critical for long-term scalability in CMS-based systems. This guide covers key principles like modularity, reuse, and reference-based design, helping you create flexible models that scale across websites, apps, and other digital touchpoints."
