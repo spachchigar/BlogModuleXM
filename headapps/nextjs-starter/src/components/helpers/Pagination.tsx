@@ -1,30 +1,31 @@
+import Link from 'next/link';
 import React from 'react';
 interface paginationProps {
   currentPage: number;
   totalPage: number;
-  handleNext: () => void;
-  handlePrev: () => void;
+  currentSort: 'ASC' | 'DESC';
 }
-function Pagination({ currentPage, totalPage, handleNext, handlePrev }: paginationProps) {
+function Pagination({ currentPage, totalPage, currentSort }: paginationProps) {
   return (
     <div className="mt-8 flex items-center justify-center gap-4">
-      {currentPage > 1 && (
-        <button
-          onClick={() => handlePrev()}
-          className="rounded-xl bg-gray-200 px-4 py-2 text-gray-800 shadow-sm transition-all duration-200 hover:bg-gray-300 hover:shadow-md focus:ring-2 focus:ring-gray-400 focus:outline-none"
-        >
-          ← Prev
-        </button>
-      )}
-
-      {currentPage < totalPage && (
-        <button
-          onClick={() => handleNext()}
-          className="rounded-xl bg-gray-800 px-4 py-2 text-white shadow-sm transition-all duration-200 hover:bg-gray-700 hover:shadow-md focus:ring-2 focus:ring-gray-600 focus:outline-none"
-        >
-          Next →
-        </button>
-      )}
+      {Array.from({ length: totalPage }).map((_, ind) => {
+        const pageNumber = ind + 1;
+        const isActive = currentPage === pageNumber;
+        return (
+          <Link
+            key={ind}
+            className={`rounded-xl px-4 py-2 text-gray-800 shadow-sm transition-all duration-200 focus:ring-2 focus:ring-gray-400 focus:outline-none ${
+              isActive
+                ? 'border-blue-600 bg-blue-600 text-white hover:bg-blue-700 pointer-events-none'
+                : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100'
+            }`}
+            scroll={false}
+            href={`/blogs?page=${ind + 1}&sort=${currentSort}`}
+          >
+            {ind + 1}
+          </Link>
+        );
+      })}
     </div>
   );
 }

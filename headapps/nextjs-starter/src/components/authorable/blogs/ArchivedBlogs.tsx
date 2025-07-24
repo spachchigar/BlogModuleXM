@@ -3,64 +3,56 @@ import { Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { PageContent } from '../../../../models/Feature.Blog Module.Model';
 import BlogCard from '../../helpers/BlogCard';
-import { QueryOperators, SortResponse } from './LatestBlogs';
+import { SortResponse } from './LatestBlogs';
 import { container } from 'assets/tailwindcss';
-import { graphQLClient } from 'src/utils/graphqlClient';
-import { BLOG_LIST } from 'src/utils/graphqlQuery';
-import Pagination from '../../helpers/Pagination';
 type ArchivedBlogsProps = ComponentProps & PageContent.BlogList;
 
 export const Default = (props: ArchivedBlogsProps): JSX.Element => {
-  const ITEMS_PER_PAGE = 3;
-
   const [blogs, setBlogs] = useState<SortResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
-  const [endCursors, setCursors] = useState<string[]>(['']);
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [totalPage, setTotalPage] = useState<number>(1);
-  // const [currentSortOrder, setCurrentSortOrder] = useState<'ASC' | 'DESC'>(
-  //     'DESC'
-  // )
 
   const fetchBlogs = async () => {
     try {
-      const result = await graphQLClient.request<SortResponse>(BLOG_LIST, {
-        first: ITEMS_PER_PAGE,
-        after: endCursors[currentPage - 1],
+      const postData = {
         path: '{F372EB01-1228-45D3-8FEC-92808218647B}',
         templateId: '{C93ED2F0-0725-4727-A332-E9927FDB12C4}',
-        archiveQuery: QueryOperators.EQ,
+        blogType: 'ARCHIVED',
+      };
+      const result = await fetch('api/blogs/getBlogs', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(postData),
       });
-      const endCursor = result?.search?.pageInfo?.endCursor;
-      setBlogs(result);
-      setCursors((prv) => [...prv, endCursor]);
-      setTotalPage(Math.ceil(result?.search?.total / ITEMS_PER_PAGE));
+      const data = await result.json();
+      if (result.status === 200) {
+        setBlogs(data.blogs);
+      } else if (result.status === 201) {
+        console.log('No blogs found');
+        setBlogs(null);
+      } else {
+        console.error('The following error occured: ', data.errMessage);
+        setBlogs(null);
+      }
     } catch (err) {
       console.error('GraphQL error', err);
       setBlogs(null);
-      setCursors(['']);
     } finally {
       setLoading(false);
     }
   };
 
-  const handleNext = async () => {
-    setCurrentPage((prv) => prv + 1);
-  };
-  const handlePrev = async () => {
-    setCurrentPage((prv) => prv - 1);
-  };
-
   useEffect(() => {
     fetchBlogs();
-  }, [currentPage]);
+  }, []);
 
   if (loading) {
     return <div>Loading…</div>;
   }
 
   if (!blogs) {
-    return <div>No Blog Found.</div>;
+    return <></>;
   }
   return (
     <div className={`${container()} my-5`}>
@@ -73,12 +65,6 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
             <BlogCard key={index} data={blog} />
           ))}
         </div>
-        <Pagination
-          currentPage={currentPage}
-          totalPage={totalPage}
-          handlePrev={handlePrev}
-          handleNext={handleNext}
-        />
       </div>
     </div>
   );

@@ -105,11 +105,6 @@ export namespace PageContent {
             author?: Item;
 
             /**
-            * Represents the publishData field (5929d3ca-c832-4cac-a8c6-bc2464dbd5d7).
-            */
-            publishData?: Field<string>;
-
-            /**
             * Represents the title field (feb97476-c410-4511-a519-bca8e53a6fb2).
             */
             title?: Field<string>;
@@ -127,13 +122,6 @@ export namespace PageContent {
             */
             author?: {
                 jsonValue: Item
-            };
-
-            /**
-            * Represents the publishData field (5929d3ca-c832-4cac-a8c6-bc2464dbd5d7).
-            */
-            publishData?: {
-                jsonValue: Field<string>
             };
 
             /**
@@ -168,6 +156,11 @@ export namespace PageContent {
     export type BlogList =  {
         fields?: { 
             /**
+            * Represents the pageItemCount field (6bcfe4d9-8685-42c4-b2b1-86f11a3dcab9).
+            */
+            pageItemCount?: Field<number>;
+
+            /**
             * Represents the title field (8fe76788-d180-4404-a16c-394ae349efc3).
             */
             title?: Field<string>;
@@ -180,6 +173,13 @@ export namespace PageContent {
     */
     export type BlogListJson =  {
         
+            /**
+            * Represents the pageItemCount field (6bcfe4d9-8685-42c4-b2b1-86f11a3dcab9).
+            */
+            pageItemCount?: {
+                jsonValue: Field<number>
+            };
+
             /**
             * Represents the title field (8fe76788-d180-4404-a16c-394ae349efc3).
             */
