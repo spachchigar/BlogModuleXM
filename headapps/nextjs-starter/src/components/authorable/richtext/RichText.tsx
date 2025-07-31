@@ -10,9 +10,10 @@ export const Default = (props: RichTextProps): JSX.Element => {
   return (
     <div className={container()}>
       <div className="p-6">
-        <div className="prose prose-sm sm:prose lg:prose-lg dark:prose-invert">
-          <RichText field={props.fields?.text} />
-        </div>
+        <RichText
+          field={props.fields?.text}
+          className="prose prose-sm sm:prose lg:prose-lg dark:prose-invert"
+        />
       </div>
     </div>
   );

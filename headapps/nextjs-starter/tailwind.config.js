@@ -10,10 +10,17 @@ module.exports = {
   ],
   safelist: [
     {
-      pattern:
-        /^bg-(blue|red|green|gray|yellow|indigo|purple|pink)-(100|200|300|400|500|600|700|800|900)$/,
-      variants: ['hover'],
+      pattern: /^m[trblxy]?-([0-9]|1[0-2])$/,
+      variants: ['sm', 'md', 'lg', 'hover', 'focus'],
     },
+
+    {
+      pattern: /^p[trblxy]?-([0-9]|1[0-2])$/,
+      variants: ['sm', 'md', 'lg', 'hover', 'focus'],
+    },
+    'list-disc',
+    'list-inside',
+    'mt-6',
   ],
   theme: {
     extend: {

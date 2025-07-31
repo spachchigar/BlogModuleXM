@@ -37,9 +37,9 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
       <div className="flex flex-grow flex-col p-4">
         <header className="mb-2">
           <h2 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
-            <a href={blogLink}>
+            <Link href={blogLink}>
               <Text field={data?.pageTitle} />
-            </a>
+            </Link>
           </h2>
           {/* <div className="text-sm text-gray-500">
                         {data.author.jsonValue ? (

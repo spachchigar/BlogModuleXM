@@ -56,15 +56,11 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
   }
   return (
     <div className={`${container()} my-5`}>
-      <div className="component-content">
-        <h1 className="mb-6 text-3xl font-bold">
-          <Text field={props?.fields?.title} />
-        </h1>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {blogs?.search.results.map((blog, index) => (
-            <BlogCard key={index} data={blog} />
-          ))}
-        </div>
+      <Text field={props?.fields?.title} tag="h1" className="mb-6 text-3xl font-bold" />
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {blogs?.search.results.map((blog, index) => (
+          <BlogCard key={index} data={blog} />
+        ))}
       </div>
     </div>
   );

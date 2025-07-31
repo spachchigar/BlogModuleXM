@@ -60,7 +60,6 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   // Alternatively, the entire sitemap could be pre-rendered
   // ahead of time (non-development mode in this example).
   // See https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration
-
   let paths: StaticPath[] = [];
   let fallback: boolean | 'blocking' = 'blocking';
 
@@ -78,7 +77,6 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
     fallback = process.env.EXPORT_MODE ? false : fallback;
   }
-
   return {
     paths,
     fallback,
@@ -90,7 +88,6 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 // revalidation (or fallback) is enabled and a new request comes in.
 export const getStaticProps: GetStaticProps = async (context) => {
   const props = await sitecorePagePropsFactory.create(context);
-
   return {
     props,
     // Next.js will attempt to re-generate the page:

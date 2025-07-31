@@ -21,7 +21,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 const header = tv({
   slots: {
-    wrapper: 'flex items-center justify-between py-3 text-white md:py-6',
+    wrapper: 'flex items-center justify-between py-3 text-black md:py-6',
     navigationMenu: 'hidden gap-x-3 md:flex',
     navigationItem: 'p-3 hover:bg-green-600',
   },
@@ -64,20 +64,17 @@ export const Default = (props: HeaderProps): JSX.Element => {
     <div className={`${container()}`}>
       <div className={wrapper()}>
         <div>
-          <NextImage
-            field={props.fields?.Logo?.value}
-            width={parseInt(props.fields?.Logo?.value?.width as string)}
-            height={parseInt(props.fields?.Logo?.value?.height as string)}
-            priority
-          />
+          <NextImage field={props.fields?.Logo?.value} width={100} height={100} priority />
         </div>
         <div className={navigationMenu()}>
           {navItems?.map((item, ind) => {
             return (
               <Link field={item.fields.link as LinkField} key={ind}>
-                <div className={navigationItem()}>
-                  <Text field={item.fields.title as TextField} />
-                </div>
+                <Text
+                  field={item.fields.title as TextField}
+                  className={navigationItem()}
+                  tag="div"
+                />
               </Link>
             );
           })}

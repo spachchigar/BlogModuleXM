@@ -20,16 +20,13 @@ export const Default = (props: BlogTitleProps): JSX.Element => {
           <Text field={props.fields?.title} />
         </div>
         <div className="flex justify-start gap-x-5 text-sm md:text-lg">
-          <div>
-            <span className="font-bold">
-              <Text field={props.fields?.author?.fields.fullName as TextField} />
-            </span>
-          </div>
-          <div>
-            <span className="font-bold">
-              {publishDate && <DateField field={publishDate} render={(date) => formatDate(date)} />}
-            </span>
-          </div>
+          <span className="font-bold">
+            <Text field={props.fields?.author?.fields.fullName as TextField} />
+          </span>
+
+          <span className="font-bold">
+            {publishDate && <DateField field={publishDate} render={(date) => formatDate(date)} />}
+          </span>
         </div>
       </div>
     </div>

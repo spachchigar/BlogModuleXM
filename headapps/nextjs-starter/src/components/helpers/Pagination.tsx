@@ -7,7 +7,7 @@ interface paginationProps {
 }
 function Pagination({ currentPage, totalPage, currentSort }: paginationProps) {
   return (
-    <div className="mt-8 flex items-center justify-center gap-4">
+    <div className="mt-8 flex items-center justify-center gap-4 flex-wrap">
       {Array.from({ length: totalPage }).map((_, ind) => {
         const pageNumber = ind + 1;
         const isActive = currentPage === pageNumber;
@@ -21,6 +21,7 @@ function Pagination({ currentPage, totalPage, currentSort }: paginationProps) {
             }`}
             scroll={false}
             href={`/blogs?page=${ind + 1}&sort=${currentSort}`}
+            shallow={true}
           >
             {ind + 1}
           </Link>

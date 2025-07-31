@@ -110,6 +110,7 @@ export const Default = (props: LatestBlogProps): JSX.Element => {
       <div className="my-5 flex gap-2">
         <NextLink
           scroll={false}
+          shallow={true}
           href={`/blogs?sort=ASC`}
           className={`rounded-xl border-2 px-4 py-2 font-semibold transition-colors ${currentSortOrder === 'ASC' ? 'pointer-events-none border-blue-600 bg-blue-600 text-white hover:bg-blue-700' : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100'} `}
         >
@@ -117,6 +118,7 @@ export const Default = (props: LatestBlogProps): JSX.Element => {
         </NextLink>
         <NextLink
           scroll={false}
+          shallow={true}
           href={`/blogs?sort=DESC`}
           className={`rounded-xl border-2 px-4 py-2 font-semibold transition-colors ${currentSortOrder === 'DESC' ? 'pointer-events-none border-blue-600 bg-blue-600 text-white hover:bg-blue-700' : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100'} `}
         >
