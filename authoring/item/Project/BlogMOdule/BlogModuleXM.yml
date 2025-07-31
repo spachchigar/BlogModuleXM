@@ -27,16 +27,19 @@ SharedFields:
     {ED6C4A9B-E3DC-413A-BEF6-337ABB7FD2C7}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{F9A637B0-916F-4A68-A60E-631E8A183EA9}"
+  Value: 
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
-  Value: "{7387FD7F-9E1B-49B1-96E2-7AD7CA7DA4E0}"
+  Value: 
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: BlogModuleXM
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "477b9ce6-6861-4c2d-b7d6-740ecc909126"
+  Value: "ba2eecdc-c052-46b7-9181-f9d25c1fa2d7"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
@@ -58,11 +61,11 @@ Languages:
         sitecore\hmaurya@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa75d9ee-98b3-438b-90af-4dbf62663806"
+      Value: "c3fe2922-60b7-4140-8fad-ad76aa9be7bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250722T130038Z
+      Value: 20250728T082600Z

@@ -11,7 +11,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{2308CF04-98E8-4591-BDBA-E08FA21F873C}" />
+    <image mediaid="{8E6FE152-DEA7-478F-A3A1-BD48EA9712D9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "6201b3ad-0b7e-4604-aff6-2418be88f67c"
@@ -51,11 +51,11 @@ Languages:
         sitecore\hmaurya@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ba1dc64-e982-48da-8801-fbc135f75bfe"
+      Value: "796a7783-7293-457b-8307-a16f7bb11d92"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rodedara@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250723T052948Z
+      Value: 20250728T085311Z

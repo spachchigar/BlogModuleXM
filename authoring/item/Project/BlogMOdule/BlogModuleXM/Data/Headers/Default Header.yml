@@ -24,15 +24,15 @@ Languages:
       Value: "{22D5F32C-832F-48D1-BC77-338EA5D5EE28}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1462af33-dc1a-4ae0-881f-5fccdaeb0ab8"
+      Value: "28c40e75-7936-41dc-b499-8e38ca2abc43"
     - ID: "9f06e093-61d5-4960-a75a-c8a0c81e1110"
       Hint: Logo
       Value: |
-        <image mediaid="{A8536798-34C0-4AE0-B734-074DFA2B3C41}" />
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hmaurya@horizontal.com
+        sitecore\spachchigar@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250722T135102Z
+      Value: 20250728T085311Z
